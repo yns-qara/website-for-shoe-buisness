@@ -1,16 +1,17 @@
 import styles from "../styles/navbar.module.css"
+import Link from "next/link"
 const Navbar = () => {
   return (
-    <nav>
+    <nav className={styles.container}>
         <div>Logo</div>
-        <div>
+        <div className={styles.list}>
             <ul>
-                <li>News&Featured</li>
-                <li>Men</li>
-                <li>Women</li>
-                <li>Kids</li>
-                <li>Sale</li>
-                <li>Gifts</li>
+                <li><Link href="#">News&Featured</Link></li>
+                <li><Link href="#">Men</Link></li>
+                <li><Link href="#">Women</Link></li>
+                <li><Link href="#">Kids</Link></li>
+                <li><Link href="#">Sale</Link></li>
+                <li><Link href="#">Gifts</Link></li>
             </ul>
         </div>
         <div>cart</div>

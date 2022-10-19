@@ -25,17 +25,19 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 15px;
+    gap: 30px;
 }
 
 .left button {
     border: 0;
     padding: 10px 25px;
+    border-radius: 5px;
     cursor: pointer;
     font-family: 'Karla', sans-serif;
-    font-weight: 500;
+    font-weight: 900;
     text-transform: capitalize;
-    font-size: 1em;
+    font-size: 1.2em;
+    width: 200px;
 
-    background-color: rgb(255, 149, 11);
+    background-color: rgb(31, 255, 11);
 }

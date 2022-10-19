@@ -7,7 +7,7 @@ const Hero = () => {
                 <h1>welcome to the shoe brand website</h1>
                 <div className={styles.buttons}>
                     <button>shop now</button>
-                    <button>shop now</button>
+                    <button>discover more</button>
                 </div>
             </div>
             <div className={styles.right}>

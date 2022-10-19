@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
 
-    padding: 45px 25px;
+    padding: 10px 92px;
 
     background-color: #181818;
 
@@ -13,12 +13,40 @@
     text-transform: capitalize;
     font-size: 1.5em;
 
+    position: relative;
+}
+
+.logo{
+    cursor: pointer;
+    fill: black;
+    stroke: #ffffff;
 }
 
 .list ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 45px;
 
+}
+
+.container div svg {
+    fill: #ffffff;
+    cursor: pointer;
+}
+
+.list ul li{
+    position: relative;
+}
+
+.list ul li a::before{
+    content: "";
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+    height: 5px;
+    border-radius: 15px;
+    background-color: green;
 }

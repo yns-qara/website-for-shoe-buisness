@@ -16,7 +16,7 @@
     position: relative;
 }
 
-.logo{
+.logo {
     cursor: pointer;
     fill: black;
     stroke: #ffffff;
@@ -35,18 +35,27 @@
     cursor: pointer;
 }
 
-.list ul li{
+.list ul li {
     position: relative;
 }
 
-.list ul li a::before{
+.list ul li a::before {
     content: "";
     position: absolute;
     bottom: -25%;
     left: 50%;
     transform: translateX(-50%);
-    width: 85%;
-    height: 5px;
+    width: 0%;
+    height: 3.5px;
     border-radius: 15px;
-    background-color: green;
+    background-color: rgb(199, 202, 0);
+    transition: all .4s ease;
+}
+
+.list ul li a:hover::before {
+    width: 85%;
+}
+
+.list ul li a:hover {
+    color: rgb(254, 255, 205);
 }

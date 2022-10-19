@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 52px 150px;
+    background-color: #181818;
+    color: #FFF;
+    height: 100vh;
+}
+
+.left{
+    max-width: 800px;
+}
+
+.left h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.left button {
+    border: 0;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1em;
+
+    background-color: rgb(255, 149, 11);
+}

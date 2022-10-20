@@ -20,9 +20,12 @@
 }
 
 .logo {
+    color: #FFF;
     cursor: pointer;
-    fill: black;
-    stroke: #ffffff;
+    transition: all .4s ease;
+}
+.logo:hover {
+    color: rgb(31, 255, 11);
 }
 
 .list ul {
@@ -36,10 +39,18 @@
 .container div svg {
     fill: #ffffff;
     cursor: pointer;
+    transition: all .4s ease;
+}
+
+.container div svg:hover {
+    fill: rgb(31, 255, 11);
 }
 
 .list ul li {
     position: relative;
+}
+.list ul li a{
+    transition: all .4s ease;
 }
 
 .list ul li a::before {
@@ -51,7 +62,7 @@
     width: 0%;
     height: 3.5px;
     border-radius: 15px;
-    background-color: rgb(199, 202, 0);
+    background-color: rgb(31, 255, 11);
     transition: all .4s ease;
 }
 
@@ -60,5 +71,5 @@
 }
 
 .list ul li a:hover {
-    color: rgb(254, 255, 205);
+    color: rgb(31, 255, 11);
 }

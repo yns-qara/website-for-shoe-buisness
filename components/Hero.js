@@ -11,7 +11,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className={styles.right}>
-                <Image src="/nikeShoes.png" width="900" height="600" alt="hero image" />
+                <Image src="/PngItem_2128990.png" width="700" height="300" alt="hero image" />
             </div>
         </div>
     )

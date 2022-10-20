@@ -8,7 +8,7 @@
     height: 100vh;
 }
 
-.left{
+.left {
     max-width: 800px;
 }
 
@@ -19,10 +19,13 @@
     text-transform: uppercase;
     text-align: left;
     line-height: 1.5em;
-
 }
 
-.buttons{
+.left h1::first-letter {
+    color: rgb(31, 255, 11);
+}
+
+.buttons {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -38,13 +41,16 @@
     font-weight: 900;
     text-transform: capitalize;
     font-size: 1.2em;
-    width: 200px;
-
+    width: 190px;
+    transition: all .4s ease;
     background-color: rgb(31, 255, 11);
 }
 
+.left button:hover {
+    width: 200px;
 
+}
 
-.right{
+.right {
     transform: rotate(-25deg) scaleX(-1);
 }
